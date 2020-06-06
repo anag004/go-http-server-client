@@ -48,7 +48,7 @@ func main() {
 
 	for i := 1; i <= numReqs; i++ {
 		wg.Add(1)
-		go request(url, &wg)
+		request(url, &wg)
 	}
 
 	wg.Wait()
