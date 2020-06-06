@@ -3,7 +3,7 @@
 To run the HTTP server (listens on port 80)
 
 ```
-go server.go 
+go server.go -port <port to serve on> -home <path of directory to serve> 
 ```
 
 ```
